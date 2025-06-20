@@ -1,0 +1,13 @@
+{
+  "name": "@frit/core",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "builder build:ts --entry src/index.ts --output dist/index.esm.js"
+  },
+  "devDependencies": {
+    "@frit/builder": "workspace:*"
+  }
+}
