@@ -4,5 +4,17 @@
   "packageManager": "pnpm@10.8.0",
   "engines": {
     "node": ">=22.13.1"
+  },
+  "scripts": {
+    "lint": "eslint ./packages/**/*.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-perfectionist": "^4.15.0",
+    "eslint-plugin-prettier": "^5.5.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.0"
   }
 }
