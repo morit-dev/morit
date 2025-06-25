@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "frit",
+  "name": "morit",
   "packageManager": "pnpm@10.8.0",
   "engines": {
     "node": ">=22.13.1"

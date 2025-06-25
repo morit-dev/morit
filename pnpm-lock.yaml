@@ -22,7 +22,7 @@ importers:
 
   packages/core:
     devDependencies:
-      '@frit/builder':
+      '@morit/builder':
         specifier: workspace:*
         version: link:../@builder
 

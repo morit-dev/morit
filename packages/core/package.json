@@ -1,5 +1,5 @@
 {
-  "name": "@frit/core",
+  "name": "@morit/core",
   "version": "0.0.1",
   "private": true,
   "main": "dist/index.esm.js",
@@ -8,6 +8,6 @@
     "build": "builder build:ts --entry src/index.ts --output dist/index.esm.js"
   },
   "devDependencies": {
-    "@frit/builder": "workspace:*"
+    "@morit/builder": "workspace:*"
   }
 }
